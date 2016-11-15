@@ -71,6 +71,7 @@ var app = {
     },
     storeToken: function(token) {
         console.log("Token is " + token);
+        /*XP
         var xmlhttp=new XMLHttpRequest();
         xmlhttp.open("POST","http://127.0.0.1:8888",true);
         xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
@@ -81,6 +82,6 @@ var app = {
                 console.log("Registration response: " + xmlhttp.responseText);
                 app.myLog.value+="Registration server returned: " + xmlhttp.responseText;
             }
-        }
+        }*/
     }    
 };

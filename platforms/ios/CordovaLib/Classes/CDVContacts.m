@@ -79,7 +79,7 @@ dispatch_queue_t workQueue = nil;
 }
 -(void) dealloc
 {
-    dispatch_release(workQueue);
+    //xp dispatch_release(workQueue);
 }
 
 // iPhone only method to create a new contact through the GUI
